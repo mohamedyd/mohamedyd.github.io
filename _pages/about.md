@@ -2,16 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Senior Research Scientist at [Software AG](https://www.softwareag.com/)
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
@@ -19,8 +15,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I serve as a Senior Research Scientist and Project Leader at [Software AG](https://www.softwareag.com/) located in Darmstadt, Germany. I am responsible for the publicly-funded collaborative research projects. We cooperate with many companies and research institutions, primarily in Germany and Europe. In this role, I manage and work on several research projects related to machine learning, data quality, and MLOps. In 2023, I received the Elevating Excellence Award in innovation for my work at Software AG.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My academic and professional journey is a testament to my passion for research and innovation. I pursued my Ph.D. in Computer Science at the University of Oldenburg, Germany, where my thesis focused on the intersection of energy efficiency and service quality in wireless sensing. Following my doctorate, I continued to explore the realms of AI and IoT through postdoctoral research and as a lecturer at the University of Stuttgart, Germany.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Research interests
+- Data quality (Data profiling and cleaning) for AI/GenAI
+- AI/GenAI for data quality
+- ML engineering (MLOps)
+- Explainable AI and data valuation
+- Internet of Things/Wireless Sensor Networks 
