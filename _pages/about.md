@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior Research Scientist at [Software AG](https://www.softwareag.com/)
+subtitle: Senior Research Scientist at Software AG
 
 profile:
   align: right

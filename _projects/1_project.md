@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: KompAKI
+description: BMBF-funded project
+img: assets/img/kompaki.png
 importance: 1
-category: work
-related_publications: true
+category: Active
+redirect: https://kompaki.de/
+#related_publications: true
 ---
 
 Every project has a beautiful feature showcase page.
