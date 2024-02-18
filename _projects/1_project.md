@@ -1,16 +1,7 @@
 ---
 layout: page
 title: KompAKI
-description: Competence Center for Work and AI in the Rhine-Main area. In fact, many companies have little experience in integrating AI approaches into their
-processes, and employees generally lack the skills needed to handle AI-based systems.
-One approach to overcome these challenges is to develop cooperative AI methods.
-The main characteristics of cooperative AI are that it should enable employees
-without knowledge in the field of AI, to train learning systems ("automated AI"),
-that learning systems explain themselves ("Explainable AI") and that they can adapt
-to humans through interaction with the employee ("Interactive AI"). In this context,
-AI methods can by adapted depending on the activity and profile of employees.
-This implies that learning systems can be created dynamically to optimally support
-individual employees in their work.
+description: Competence Center for Work and AI in the Rhine-Main area. In this project, we develop cooperative AI methods. The main characteristics of cooperative AI are that it should enable employees without knowledge in the field of AI, to train learning systems ("automated AI"), that learning systems explain themselves ("Explainable AI") and that they can adapt to humans through interaction with the employee ("Interactive AI"). In this context, AI methods can by adapted depending on the activity and profile of employees. This implies that learning systems can be created dynamically to optimally support individual employees in their work.
 img: assets/img/kompaki.png
 importance: 1
 category: Active
