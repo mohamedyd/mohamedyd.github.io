@@ -18,8 +18,8 @@ I serve as a Senior Research Scientist and Project Leader at <a href='https://ww
 My academic and professional journey is a testament to my passion for research and innovation. I pursued my Ph.D. in Computer Science at the University of Oldenburg, Germany, where my thesis focused on the intersection of energy efficiency and service quality in wireless sensing. Following my doctorate, I continued to explore the realms of AI and IoT through postdoctoral research and as a lecturer at the University of Stuttgart, Germany.
 
 ## Research interests
-- Data quality (Data profiling and cleaning) for AI/GenAI
-- AI/GenAI for data quality
+- Data quality (Data profiling and cleaning) for AI
+- AI for data quality
 - ML engineering (MLOps)
 - Explainable AI and data valuation
-- Internet of Things/Wireless Sensor Networks 
+- Internet of Things-Wireless Sensor Networks
