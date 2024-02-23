@@ -3,7 +3,6 @@ layout: page
 title: KompAKI
 description: In this project, we develop cooperative AI tools.
 redirect: https://kompaki.de/
-img: assets/img/kompaki.png
 importance: 1
 category: Active
 ---
