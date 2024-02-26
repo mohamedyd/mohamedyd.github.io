@@ -10,8 +10,8 @@ category: Active
  
 This European project is designed to revolutionize the development and quality assurance of intelligent services and software on an industrial scale. By focusing on the intricacies of Artificial Intelligence (AI) and Machine Learning (ML), it aims to enhance the efficiency of these technologies through automation and reusability across data and training pipelines. The project promises to support continuous quality monitoring for a variety of machine learning tasks, ensuring high standards are maintained throughout the lifecycle of intelligent systems.
 
- <div class="row">
-    <div class="col-sm mt-3 mt-md-0" style="max-width=250px;">
+ <div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/iml4e_circle.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
