@@ -17,7 +17,7 @@ To effectively tackle the challenges at the intersection of AI development and w
     </div>
 </div>
 <div class="caption">
-    Technical challenges addressed by the IML4E project.
+    Technical challenges addressed by the KompAKI project.
 </div>
 
 Transitioning smoothly to the second objective, KompAKI aims to innovate new methods for cooperative AI. This encompasses the creation of AI systems that are not only automated but also explainable and interactive. Such systems allow non-expert users to operate AI tools effectively and to understand the rationale behind AI decisions. The emphasis on explainability ensures that AI decisions are transparent, fostering trust and allowing for the fine-tuning of algorithms based on user feedback and outcomes. The third objective marks a progression towards the establishment of evaluation methods for AI-based work systems. These methodologies will serve as a benchmark to measure how well these AI systems are assimilated into work processes and how they contribute to achieving business objectives. By setting clear evaluation standards, KompAKI aims to ensure that AI tools bring tangible benefits and drive efficiency in the workplace.
