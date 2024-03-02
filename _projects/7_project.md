@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ETNS
+title: "ETNS"
 description: Development of interative explainability tool for NLP systems
 img:
 importance: 7

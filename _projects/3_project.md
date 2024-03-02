@@ -1,6 +1,6 @@
 ---
 layout: page
-title: {iEnergy}
+title: "iEnergy"
 description: a project that redirects to another website
 img: assets/img/ienergy.png
 importance: 3
@@ -13,7 +13,7 @@ The future of our energy supply lies in renewable, i.e., inexhaustible, and envi
 At the same time, developing countries like Egypt face an annually increasing challenge to meet their energy needs. The growth in energy consumption is associated with the expansion of living space, industrialization, and corresponding lifestyle habits. However, this growth has not been accompanied by an equivalent growth in energy production in recent years, particularly due to the severe economic downturn that the country has experienced in the post-revolutionary era. Currently, the Egyptian government is struggling with economic constraints that limit the possibilities for spending on the expansion of energy networks and investments in alternative and renewable energy sources. Therefore, the expenditures are insufficient to resolve Egypt's energy crisis in the short term. Consequently, it is of utmost importance to manage the available resources intelligently and efficiently.
 
  <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/ienergy_figure.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

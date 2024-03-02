@@ -1,6 +1,6 @@
 ---
 layout: page
-title: {IML4E}
+title: "IML4E"
 description: In this project, we address the industrialization of ML development and operations, the IML4E project develops the IML4E framework, covering methods, techniques and tools that are dedicated to deliver and maintain high quality smart software in efficient, scalable and manageable processes.
 img: assets/img/iml4e.png
 importance: 2

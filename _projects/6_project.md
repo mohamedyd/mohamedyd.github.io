@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ApplS-LAB
+title: "ApplS-LAB"
 description: a project with no image
 img:
 importance: 6

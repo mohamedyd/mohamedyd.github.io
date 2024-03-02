@@ -1,6 +1,6 @@
 ---
 layout: page
-title: COMBINE
+title: "COMBINE"
 description: Customization of classification ensembles based on data characteristics
 img:
 importance: 8
