@@ -1,80 +1,35 @@
 ---
 layout: page
-title: "ComNSense"
-description: another without an image
-img:
+title: "iEnergy"
+description: An IoT Framework for Smart Energy Management 
+img: assets/img/ienergy.png
 importance: 4
 category: Completed
 ---
+The iEnergy project is a collaborative endeavor, funded by the German Federal Ministry of Research and Education (BMBF) and facilitated by the German Academic Exchange Service (DAAD) program. This project signifies a partnership between the University of Stuttgart in Germany and the German University in Cairo, Egypt (GUC), aiming to foster advancements in the energy sector through international cooperation and academic exchange.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The future of our energy supply lies in renewable, i.e., inexhaustible, and environmentally friendly energy sources such as wind, sun, and water. With this vision, industrial nations like Germany are increasingly moving towards renewable energies in order to reduce their dependence on environmentally harmful and only limitedly available oil and gas resources. In Germany, renewable energies are expected to account for 40-45% of energy production in 2025 and 55-60% by 2035. This requires efficient energy management that takes into account both energy consumption and energy production to minimize energy costs.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+At the same time, developing countries like Egypt face an annually increasing challenge to meet their energy needs. The growth in energy consumption is associated with the expansion of living space, industrialization, and corresponding lifestyle habits. However, this growth has not been accompanied by an equivalent growth in energy production in recent years, particularly due to the severe economic downturn that the country has experienced in the post-revolutionary era. Currently, the Egyptian government is struggling with economic constraints that limit the possibilities for spending on the expansion of energy networks and investments in alternative and renewable energy sources. Therefore, the expenditures are insufficient to resolve Egypt's energy crisis in the short term. Consequently, it is of utmost importance to manage the available resources intelligently and efficiently.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+ <div class="row justify-content-sm-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ienergy_figure.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Technical challenges addressed by the iEnergy project.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+A successful energy management system must be based on the availability of large amounts of detailed real-time consumption data. Therefore, the widespread deployment of advanced metering infrastructure (AMI) through smart electricity meters is expected to become the driving force for collecting this information. The key factor of smart meters is their ability to enable high-frequency meter readings throughout the day via a two-way communication platform. An even more intelligent energy management process should benefit from the enormous advances in sensor technology by integrating measurements of environmental conditions into the management system, which can have a direct influence on energy consumption profiles (for example, temperature measurements).
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+In light of the above discussion, the need for effective energy management systems, given the availability of large quantities of diverse real-time information, poses a significant challenge to a corresponding network platform. Coincidentally, the world has also experienced another technological revolution in recent years that equips everyday objects with transceiver communication technology, sensors, and protocol stacks in an economical way so that they can be connected to the Internet. This Internet of Things (IoT) has spawned a multitude of applications in various domains, such as home and industrial automation, healthcare, intelligent transportation, and more. Therefore, this project aims to develop an IoT framework that can serve as the backbone for a successful energy management system, which contributes to overcoming the future challenges in energy. The system architecture proposed for such an energy management system is illustrated in Figure 1 and is divided into 3 levels:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<ul><li>Data Acquisition Layer: This layer includes smart electricity meters and sensors responsible for collecting relevant data. The data collected within the proposed IoT framework can potentially be forwarded through various technologies such as Bluetooth Low Energy, IEEE 802.15.4g Standard for Smart Utility Networks, WLAN, and cellular networks.</li>
 
-{% raw %}
+<li>Data Networking Layer: As the collected data can be forwarded from different platforms, a software-defined networking layer is required. The software-defined network supports the interoperability of the IoT infrastructure and the flexibility to enable context-aware networks and the support of Quality of Service (QoS) requirements.</li>
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+<li>Data Security and Analysis Layer: The large volumes of data must obviously be transferred through the SDN infrastructure to the data security layer, which supports data analysis and online/offline decision-making with Big Data and cloud computing capabilities.</li></ul>
 
-{% endraw %}
+This project encompasses design and implementation aspects of the three levels shown in the figure. To ensure realistic and marketable research, a test environment for the illustrated system will be created. This test environment will include energy consumers, smart meters, various sensors, energy producers (including renewable energies), an SDN platform, and a cloud computing model. Security and privacy aspects will be considered in all areas of this system.
+
