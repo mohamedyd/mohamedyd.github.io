@@ -1,11 +1,12 @@
 ---
 layout: page
 title: "iEnergy"
-description: An IoT Framework for Smart Energy Management 
+description: An IoT Framework for Smart Energy Management
 img: assets/img/ienergy.png
 importance: 4
 category: Completed
 ---
+
 The iEnergy project is a collaborative endeavor, funded by the German Federal Ministry of Research and Education (BMBF) and facilitated by the German Academic Exchange Service (DAAD) program. This project signifies a partnership between the University of Stuttgart in Germany and the German University in Cairo, Egypt (GUC), aiming to foster advancements in the energy sector through international cooperation and academic exchange.
 
 The future of our energy supply lies in renewable, i.e., inexhaustible, and environmentally friendly energy sources such as wind, sun, and water. With this vision, industrial nations like Germany are increasingly moving towards renewable energies in order to reduce their dependence on environmentally harmful and only limitedly available oil and gas resources. In Germany, renewable energies are expected to account for 40-45% of energy production in 2025 and 55-60% by 2035. This requires efficient energy management that takes into account both energy consumption and energy production to minimize energy costs.
@@ -32,4 +33,3 @@ In light of the above discussion, the need for effective energy management syste
 <li>Data Security and Analysis Layer: The large volumes of data must obviously be transferred through the SDN infrastructure to the data security layer, which supports data analysis and online/offline decision-making with Big Data and cloud computing capabilities.</li></ul>
 
 This project encompasses design and implementation aspects of the three levels shown in the figure. To ensure realistic and marketable research, a test environment for the illustrated system will be created. This test environment will include energy consumers, smart meters, various sensors, energy producers (including renewable energies), an SDN platform, and a cloud computing model. Security and privacy aspects will be considered in all areas of this system.
-

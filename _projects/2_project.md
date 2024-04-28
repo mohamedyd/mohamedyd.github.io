@@ -6,8 +6,9 @@ img: assets/img/iml4e.png
 importance: 2
 category: Active
 ---
- The [IML4E project](https://iml4e.org/) is an European initiative partially funded by the German Federal Ministry of Research and Education (BMBF) through ITEA3. IML4E brings together 18 partners from Germany, Finland, and Hungary. Software AG takes on a pivotal role as the head of the national consortium in Germany. Additionally, it spearheads the second work package on an international scale.
- 
+
+The [IML4E project](https://iml4e.org/) is an European initiative partially funded by the German Federal Ministry of Research and Education (BMBF) through ITEA3. IML4E brings together 18 partners from Germany, Finland, and Hungary. Software AG takes on a pivotal role as the head of the national consortium in Germany. Additionally, it spearheads the second work package on an international scale.
+
 This European project is designed to revolutionize the development and quality assurance of intelligent services and software on an industrial scale. By focusing on the intricacies of Artificial Intelligence (AI) and Machine Learning (ML), it aims to enhance the efficiency of these technologies through automation and reusability across data and training pipelines. The project promises to support continuous quality monitoring for a variety of machine learning tasks, ensuring high standards are maintained throughout the lifecycle of intelligent systems.
 
  <div class="row justify-content-sm-center">
@@ -22,6 +23,3 @@ This European project is designed to revolutionize the development and quality a
 Moreover, a key objective of the initiative is to achieve seamless integration with the existing best practices in software engineering, data science, and ML. This harmonization is crucial for fostering an environment where innovation can flourish without disrupting the tried-and-true processes that businesses rely on.
 
 To ensure the project's findings are practical and applicable in real-world scenarios, it is structured to fit within industrial settings. This is accomplished through a series of case studies that draw heavily on AI and ML, targeting relevant European industrial domains. These domains include e-Health, industrial IoT, invoicing operations, building automation, and the consulting business. Through these targeted studies, the project not only demonstrates the versatility of intelligent technologies but also their transformative potential across diverse sectors.
-
-
-

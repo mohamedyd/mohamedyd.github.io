@@ -6,6 +6,7 @@ img: assets/img/comnsense_pic2.png
 importance: 3
 category: Completed
 ---
+
 The ComNSense project has received funding from the German Research Foundation (DFG) and signifies a collaborative endeavor between the Institute of Distributed Systems and the Institute for Photogrammetry, both housed at the University of Stuttgart. This initiative underscores the interdisciplinary cooperation aimed at advancing the frontiers of knowledge within the respective fields.
 
 The aim of this research project is to develop methods for the automatic creation of indoor models using recorded user positions and cooperatively captured camera images. The intention is to utilize the mobile devices located within a building to collect relevant building data via appropriate sensors and cooperatively integrate this data into an indoor model. These methods are designed to enable not only the automatic generation of indoor models but also their constant updating. Continuous updating is particularly crucial when it is necessary to account for movable objects, such as tables or obstacles, for example, a temporarily out-of-service escalator (identifiable, for instance, from current movement patterns that bypass the escalator in favor of regular stairs).

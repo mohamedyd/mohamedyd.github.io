@@ -6,6 +6,7 @@ img:
 importance: 8
 category: Active
 ---
+
 This project, a key initiative within the [Software Campus](https://softwarecampus.de/) program, receives its funding from the German Federal Ministry of Education and Research (BMBF). It is a collaborative effort that brings together the industry expertise of Software AG with the academic excellence of the University of Stuttgart, aiming to foster innovation and leadership in the field of technology.
 
 For companies today, analyzing data is the basis for making reliable decisions in their business processes. Classification models, a method of machine learning (ML), are often used for this purpose. These models make predictions about future events based on existing data. However, the more complex this data is, the more difficult it becomes for the models to make accurate predictions. An example of this is small amounts of data, where classification models often achieve a low prediction accuracy, so that the models make many incorrect predictions. This is exacerbated by other data characteristics, such as the occurrence of outliers or noise in the data.
