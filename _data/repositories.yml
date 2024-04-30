@@ -2,6 +2,9 @@ github_users:
   - mohamedyd
 
 github_repos:
-  - awesome_resources
-  - rein-benchmark
-  - SAGED
+  - mohamedyd/awesome_resources
+  - mohamedyd/rein-benchmark
+  - mohamedyd/SAGED
+  - mohamedyd/AutoCure
+  - mohamedyd/ReClean
+  - mohamedyd/RTClean
