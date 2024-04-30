@@ -162,11 +162,11 @@ author={Mohamed Abdelaal and Rashmi Koparde and Harald Schoening},
 }
 
 @PATENT{MA23b, 
-author={Mohamed Abdelaal}, 
+author={Mohamed Abdelaal, Samuel Lokadja, Arne Kreuz}, 
 title={ML-Oriented Interactive Tabular Data Quality Display Systems and Methods}, 
   year={2024},
   note={Submitted to the U.S. patent office},
-  month={12},
+  month={05},
   selected={false},
   bibtex_show={true},
   preview={patent_pending.jpg},
@@ -358,7 +358,11 @@ month={12}}
   timestamp = {Thu, 25 May 2017 00:39:21 +0200},
   biburl    = {http://dblp.uni-trier.de/rec/bib/conf/icc/BashlovkinaAT15},
   bibsource = {dblp computer science bibliography, http://dblp.org},
-  preview={icc_2015.jpg}
+  preview={icc_2015.jpg},
+  pdf={https://www.researchgate.net/publication/308872778_FuzzyCAT_A_lightweight_Adaptive_Transform_for_sensor_data_compression},
+  selected={false},
+  bibtex_show={true},
+  abstract={This paper aims at developing a novel high precision compression method. Based on the previously developed Fuzzy Transform Compression (FTC), we design and implement a modified version of the algorithm, referred to as Fuzzy Com-pression Adaptive Transform (FuzzyCAT). The underlying idea of FuzzyCAT is to adapt the transform parameters to the signal’s curvature inferred from the time derivatives. FuzzyCAT outperforms the original FTC while preserving its favorable qualities like periodicity and resilience to lost packets. It also shows a competitive edge over the Lightweight Temporal Compression(LTC) method. A series of experiments with a network of TelosB sensor nodes revealed that transmission costs of the FuzzyCAT algorithm is much less than that of LTC at the expense of a slight increase in processing power. This makes it an outstanding candidate for data compression in wireless sensor networks.},
 }
 
 @INPROCEEDINGS{AMT15, 
@@ -370,7 +374,11 @@ pages={34-39},
 keywords={fuzzy set theory;matrix algebra;wireless sensor networks;DTW algorithm;DTW matrix dimensions;correlation estimation;data filtering;data fusing;data fusion;fuzzy abstraction;hard constraints;intermediate sensor nodes;lightweight dynamic time warping;linear operations;liteDTW;resource allocation;resources taxed sensor nodes;spatio-temporal correlation;tiny wireless sensing devices;wireless sensor networks;Data integration;Heuristic algorithms;Legged locomotion;Pattern matching;Sensors;Time series analysis;Wireless sensor networks;Complexity;Data Fusion;Dynamic Time Warping;Energy Efficiency;Fuzzy Abstraction;Wireless Sensor Networks}, 
 doi={10.1109/ICWISE.2015.7380350}, 
 month={08},
-preview={icwise.png}
+selected={false},
+bibtex_show={true},
+preview={icwise.png},
+pdf={https://www.researchgate.net/publication/304294107_liteDTW_A_lightweight_dynamic_time_warping_for_tiny_wireless_sensing_devices},
+abstract={Wireless sensor networks have been recognized as promising tools to collect relevant, in-situ data for a wide range of application domains. However, such networks suffer from hard constraints including the allocated resources. Hence, current research endeavors strive to minimize the amount of data that has to be transmitted. This is typically achieved via data fusing or sending some nodes to sleep mode whenever their readings exhibit a high degree of spatio/temporal correlation. Accordingly, the degree of correlation can be considered as a metrics for data filtering. The Dynamic time warping (DTW) algorithm is a "natural" candidate for data fusion and correlation estimation at intermediate sensor nodes via matching the various measured readings. However, the DTW algorithm suffers from the excessive computational overhead which is ill-suited for the "resources-taxed" sensor nodes. This work aims at reducing this burden via refining the implementation procedure of the DTW algorithm. The liteDTW is a novel version of the DTW algorithm with linear operations and fuzzy abstraction. The core idea is to reduce the DTW matrix dimensions via shrinking the input patterns. Several simulations and real experiments have been conducted to validate that the liteDTW algorithm excels over the naive one in terms of accuracy, time and space overhead. Moreover, the Cooja simulator of the Contiki OS has been utilized to assess the energy profit of adopting the liteDTW algorithm for data fusion.},
 }
 
 @inproceedings{VAT15b,
@@ -388,6 +396,9 @@ preview={icwise.png}
   biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ipsn/BashlovkinaAT15},
   bibsource = {dblp computer science bibliography, http://dblp.org},
   preview={cps.jpg},
+  bibtex_show={true},
+  selected={false},
+  pdf={https://www.researchgate.net/publication/380210586_FuzzyCAT_A_Novel_Procedure_for_Refining_the_F-transform_Based_Sensor_Data_Compression},
 }
 
 
@@ -399,8 +410,12 @@ preview={icwise.png}
   month     = {4},
   address   = {Singapore},
   page = {1--7},
-    timestamp = {2015.04.07},
-    preview={issnip.jpg},
+  timestamp = {2015.04.07},
+  preview={issnip.jpg},
+  bibtex_show={true},
+  selected={false},
+  abstract={Several 'energy-hungry' sensors such as gas detectors, radar, and cameras have excessive energy dissipation. Virtual sensing is a technique which 'breaks the downward spiral' between energy expenditure and events-miss probabilities. The idea is to deactivate main sensors and utilize a set of energy-friendly HW & SW components instead. However, reliability of such systems composed of virtual and real sensors should be as high as possible. In this article, a novel approach is proposed to improve the virtual sensing reliability. An ontology on sensor-environment relationships is utilized to automatically generate rules before deployment to switch between real and virtual sensors. We illustrate the general approach by a case study: we show how reliable virtual sensing reduces the energy consumption and event-miss probabilities of object tracking applications. Seismic sensors and a dynamic time-warping algorithm shape the virtual object tracking sensor. We validate the precision of such virtual sensors over several experiments. A series of experiments with a network of TelosB sensor nodes show that virtual sensors have much less energy consumption than a Doppler μ-radar (main) sensor. Finally, we evaluate event-miss probabilities and lifetime extension by using the WSNet simulator.},
+  pdf={https://www.researchgate.net/publication/281769902_Reliable_virtual_sensing_for_wireless_sensor_networks},
 }
 
 
@@ -413,9 +428,12 @@ preview={icwise.png}
   month     = {2},
   address   = {Aachen, Germany},
   pages       = {31--35},
+  bibtex_show={true},
+  selected={false},
   pdf={http://sunsite.informatik.rwth-aachen.de/Publications/AIB/2015/2015-06.pdf},
   timestamp = {2015.03.25},
   preview={ffm.png},
+  abstract={In this paper, we aim at developing a unique compression technique which “breaks the downward spiral” between compression ratio and data fidelity. The recently-developed Fuzzy Transform is exploited as a sensor data compressor, called Fuzzy Transform Compression (FTC). Based on contrasting FTC to other compressors, we design and implement a modified version of the FTC algorithm, referred to as FuzzyCAT–Fuzzy Compression: Adaptive Transform. FuzzyCAT adapts the transform parameters in accordance with the signal curvature, which could be inferred from the signal derivatives, to accomplish the optimal balance between compression ratio and precision. Generally, FuzzyCAT provides the users/apps with full control to prioritize either compression ratio or precision according to the significance. FuzzyCAT considerably outperforms the original FTC, whereas preserving its favorable qualities like periodicity and resilience to lost packets. Moreover, a full appraisal depicts the FuzzyCAT eclipses over the LTC at compression ratios above 75. A series of experiments with a network of TelosB sensor nodes revealed that transmission costs of the FuzzyCAT algorithm is 96% less than that of the LTC at the expense of 10.28% increase of processing activities, which makes it an outstanding candidate for data compression in WSN.},
 }
 
 @inproceedings{A15b,
@@ -426,8 +444,12 @@ preview={icwise.png}
   month     = {2},
   address   = {Angers, France},
 	pages     = {9--20},
+  bibtex_show={true},
+  selected={false},
   timestamp = {2015.02.13},
   preview={wsn.png},
+  abstract={The PhD program has commenced on December 2012 for three years where the graduation is expected to be in 2016. The main theme of this work is to improve the energy efficiency of Wireless Sensor Networks (WSNs). The thesis has multiple approaches tackling the main sources of energy consumption in WSNs. These approaches are classified into three main roots: ”‘Energy-cheap”’ data aggregation, Hardware optimization and Predictive self-adaptation WSNs. Currently, we have already achieved a reasonable progress as can be seen below.},
+  pdf={https://www.researchgate.net/publication/380210832_Distributed_Techniques_for_Energy_Conservation_in_Wireless_Sensor_Networks},
 }
 
 
@@ -437,9 +459,13 @@ preview={icwise.png}
   booktitle = {Doctoral Colloquium in conjunction with The 12th ACM Conference on Embedded Networked Sensor Systems (SenSys 2014)},
   year      = {2014},
   month     = {11},
+  bibtex_show={true},
+  selected={false},
   address   = {Memphis, TN, USA},
   timestamp = {2014.11.12},
   preview={wsn.png},
+  abstract={The crux behind this work is to extend the lifetime expectancy of wireless sensor networks (WSNs). In particular, we target exploiting the trade-off between reducing certain quality-of-service (QoS) measures to a degree still tolerable by the application (such as, for example, precision and latency) and maximizing the application's lifetime. For satisfying these objectives, the following sequential steps are addressed. At the outset, an elaborated survey is sketched to aggregate the diverse endeavours in the same context. This survey paves the way for identifying the weak points to be tackled. Basically, we aim at attacking the non-optimal configurations in the hardware, software and network operations that raise the energy consumption. For instance, data compression could alleviate the burden of superfluous transmissions via breaking the downward spiral between compression ratios and precision. For the sensing board, adopting the concept of virtual sensing would minimize duty cycles of the "energy-hungry" sensors. For the radio communication, less energy could be dissipated whenever slashing the operating frequency is viable. Two approaches here can be addressed thorough a careful design of the so-called undersampling receivers, and deliberately activating a subconscious mode midst idle times. From the network scope, current MAC protocols are still non-optimal, hence we reckon a combination of CDMA and RF harvester-based waking up receivers could be an excellent candidate for freely accessing the medium whenever entailed. These proposed techniques are evaluated on a suite of WSN sample applications.},
+  pdf={https://www.researchgate.net/publication/380210837_Design_and_Analysis_of_Power_Conservation_Techniques_for_Wireless_Sensor_Networks},
 }
 
 
@@ -453,6 +479,8 @@ preview={icwise.png}
                India, September 11-13, 2014},
   pages     = {1-7},
   year      = {2014},
+  bibtex_show={true},
+  selected={false},
   url       = {http://dx.doi.org/10.1109/WOCN.2014.6923052},
   timestamp = {Wed, 05 Nov 2014 19:19:10 +0100},
   biburl    = {http://dblp.uni-trier.de/rec/bib/conf/wocn/AbdelaalT14},
@@ -460,6 +488,8 @@ preview={icwise.png}
   note = {An extension of the article: Power Management in Wireless Sensor Networks: Challenges and Solutions},
   timestamp = {2014.09.11},
   preview={wsn.png},
+  abstract={Energy consumption remains the dominant limitation in most sensor networks. An outsized and growing body of literature has investigated the energy-efficiency problem. In general, energy is afforded either through preserving the already allocated energy sources such as batteries or super-capacitors; or through harvesting energy from the environment; or by utilizing both approaches. In this paper, we highlight the recent research efforts for saving the allocated energy. A unique taxonomy of energy-saving techniques dedicated to sensor networks is provided. Therefore, this paper represents an excellent source for new researchers in this field. Moreover, we present our recent developed approaches within the same context including exploiting the concepts of virtual detection and Fuzzy transform for optimizing the power consumed by sensing and radio communication units, respectively.},
+  pdf={https://www.researchgate.net/publication/287314503_Recent_energy-preservation_endeavours_for_longlife_wireless_sensor_networks_A_concise_survey},
 }
 
 
@@ -474,6 +504,10 @@ keywords={Wireless Sensor Networks; Energy Ef?ciency; Virtual Sensing; Gas Leak 
 isbn={978-1-4799-2843-9},
   timestamp = {2014.04.17},
 preview={issnip.jpg},
+bibtex_show={true},
+selected={false},
+pdf={https://www.researchgate.net/publication/262731409_EAVS_Energy_Aware_Virtual_Sensing_for_Wireless_Sensor_Networks},
+abstract={In order to extend the operational span of wireless sensor networks, we propose to trade energy consumption for average response time by extending the deactivation periods of sensors with a particularly high energy consumption. To compensate for the temporal inavailability of these sensors, alternative, low-power hybrid sensors generate estimates on the probabilities of the occurrence of interesting events, waking up the corresponding main sensor when detection probability justiﬁes it. We demonstrate the principle on a case study of gas detection and analyze its efﬁciency formally using probabilistic model checking, which is able to compute probabilistic quantiﬁed properties pertaining to energy consumption, lifetime expectancy, and response time. The preliminary results conﬁrm signiﬁcant savings in energy consumption while retaining an acceptable average response time.},
 }
 
 
