@@ -39,6 +39,7 @@ preview={under_review.png}}
   bibtex_show={true},
   preview={icde_2024.png},
   pdf={https://www.wis.ewi.tudelft.nl/assets/files/dbml2024/DBML24_paper_11.pdf},  
+  abstract={Addressing data quality issues is a challenging task due to the labor-intensive nature of manual data cleaning processes and the inadequacy of automated tools that lack effective repair strategies. In this paper, we introduce ReClean, a novel automated data-cleaning method, dedicated to ML pipelines, that employs reinforcement learning (RL) to optimize data-cleaning tasks. ReClean treats data cleaning as a sequential decision process, where RL agents learn to choose optimal data repai operations that improve ML model convergence and predictive performance. Our extensive experimental evaluation shows that ReClean surpasses existing baseline methods, successfully determining and applying data repair tools to enhance downstream predictive tasks automatically and without supervision},
 }
 
 @INPROCEEDINGS{CNA24, 
@@ -51,7 +52,9 @@ month={1},
 selected={false},
 bibtex_show={true},
 pdf={https://arxiv.org/pdf/2401.09900},
-preview={icce_2024.png}}
+preview={icce_2024.png},
+abstract={Visual quality inspection systems, crucial in sectors like manufacturing and logistics, employ computer vision and machine learning for precise, rapid defect detection. However, their unexplained nature can hinder trust, error identification, and system improvement. This paper presents a framework to bolster visual quality inspection by using CAM-based explanations to refine semantic segmentation models. Our approach consists of 1) Model Training, 2) XAI-based Model Explanation, 3) XAI Evaluation, and 4) Annotation Augmentation for Model Enhancement, informed by explanations and expert insights. Evaluations show XAI-enhanced models surpass original DeepLabv3-ResNet101 models, especially in intricate object segmentation},
+}
 
 @INPROCEEDINGS{nguyen2024langxai,
   title={LangXAI: Integrating Large Vision Models for Generating Textual Explanations to Enhance Explainability in Visual Perception Tasks [Demo]},
@@ -62,7 +65,8 @@ preview={icce_2024.png}}
   selected={false},
   bibtex_show={true},
   pdf={https://arxiv.org/pdf/2402.12525},
-  preview={ijcai_2024.png}
+  preview={ijcai_2024.png},
+  abstract={LangXAI is a framework that integrates Explainable Artificial Intelligence (XAI) with advanced vision models to generate textual explanations for visual recognition tasks. Despite XAI advancements, an understanding gap persists for end-users with limited domain knowledge in artificial intelligence and computer vision. LangXAI addresses this by furnishing text-based explanations for classification, object detection, and semantic segmentation model outputs to end-users. Preliminary results demonstrate LangXAI’s enhanced plausibility, with high BERTScore across tasks, fostering a more transparent and reliable AI framework on vision tasks for end-users.},
 }
 
 @INPROCEEDINGS{CNKAS23, 
@@ -75,7 +79,8 @@ title={Coping with Data Distribution Shifts: XAI-based Adaptive Learning with SH
   selected={false},
   bibtex_show={true},
   pdf={https://arxiv.org/pdf/2402.04982},
-  preview={ijcai_2023.png}}
+  preview={ijcai_2023.png},
+  abstract={This paper presents an approach integrating explainable artificial intelligence (XAI) techniques with adaptive learning to enhance energy consumption prediction models, with a focus on handling data distribution shifts. Leveraging SHAP clustering, our method provides interpretable explanations for model predictions and uses these insights to adaptively refine the model, balancing model complexity with predictive performance. We introduce a three-stage process: (1) obtaining SHAP values to explain model predictions, (2) clustering SHAP values to identify distinct patterns and outliers, and (3) refining the model based on the derived SHAP clustering characteristics. Our approach mitigates overfitting and ensures robustness in handling data distribution shifts. We evaluate our method on a comprehensive dataset comprising energy consumption records of buildings, as well as two additional datasets to assess the transferability of our approach to other domains, regression, and classification problems. Our experiments demonstrate the effectiveness of our approach in both task types, resulting in improved predictive performance and interpretable model explanations},}
 
 @INPROCEEDINGS{AKSS22, 
 author={Mohamed Abdelaal and Tim Ktitarev and Daniel Staedtler and Harald Schoening}, 
@@ -86,7 +91,8 @@ title={SAGED: Meta learning-powered Error Detection Technique for Tabular Data},
 pdf={https://openproceedings.org/2024/conf/edbt/paper-95.pdf},
 selected={true},
 bibtex_show={true},
-preview={edbt_2024.png}
+preview={edbt_2024.png},
+abstract={Numerous automated error detection tools for tabular data have been introduced. Nevertheless, these tools suffer from several shortcomings, encompassing the necessity for domain-specific expertise and substantial time requirements. To address these shortcomings, we introduce a novel error detection tool, denoted as SAGED, which leverage meta-learning principles. Specifically, SAGED exploits an ensemble of pre-trained models derived from historical datasets to facilitate error detection in new data with limited labeled instances. The method consists of two key phases: knowledge extraction and error detection. In the knowledge extraction phase, ML models are trained to distinguish erroneous instances within historical datasets, thereby accumulating valuable insights. In the error detection phase, pretrained base models, chosen through rigorous matching, generate a comprehensive feature vector based on predictions, facilitating the role of a meta-classifier in pinpointing errors efficiently. As a proof of concept, we conduct a comparative study of SAGED against ten state-of-the-art error detection tools, employing a set of 14 real-world datasets. The findings reveal the superior performance of SAGED in error detection tasks, with limited user intervention. SAGED’s promising results demonstrate its effectiveness and efficiency in real-world scenarios.},
 }
 
 @INPROCEEDINGS{GBA23, 
@@ -98,19 +104,21 @@ month={11},
 selected={false},
 bibtex_show={true},
 pdf={https://lm-kbc.github.io/workshop2023/proceedings/4_Biester.pdf},
-preview={iswc_2023.png}}
+preview={iswc_2023.png},
+abstract={Large language models such as ChatGPT and Bard manifest a significant step in the are of artificial intelligence. Yet, extracting useful knowledge from such models is still a challenging task. Due to the nature of language models, responses can be inaccurate, biased or even speculative. Predicting accurate object-entities by utilizing language model probing is the goal of the LM-KBC challenge. Our approach focuses on the concept of prompt ensembles. We employ initial baseline prompts to ChatGPT and then refine those prompts to exclude suboptimal ones. After a few shot learning step, we use prompt elicitation to improve the output. We use the Llama2 model with 70 billion parameters for inference. Our evaluation shows that this technique significantly enhances previous methods for knowledge base construction from language models. Our implementation is available on https://github.com/asdfthefourth/lmkbc.},}
 
 @INPROCEEDINGS{GSA23, 
 author={Daniel Del Gaudio and Tim Schubert and Mohamed Abdelaal}, 
-booktitle={2023 IEEE International Conference on Pervasive Computing and Communications
-Workshops and other Affiliated Events (PerCom Workshops)}, 
+booktitle={2023 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops)}, 
 title={RTClean: Context-aware Tabular Data Cleaning using Real-time OFDs},
 year={2023},
 month={3},
 selected={false},
 bibtex_show={true},
 pdf={https://arxiv.org/pdf/2302.04726},
-preview={percom_2023.jpg}}
+preview={percom_2023.jpg},
+abstract={Nowadays, machine learning plays a key role in developing plenty of applications, e.g., smart homes, smart medical assistance, and autonomous driving. A major challenge of these applications is preserving high quality of the training and the serving data. Nevertheless, existing data cleaning methods cannot exploit context information. Thus, they usually fail to track shifts in the data distributions or the associated error profiles. To overcome these limitations, we introduce, in this paper, a novel method for automated tabular data cleaning powered by dynamic functional dependency rules extracted from a live context model. As a proof of concept, we create a smart home use case to collect data while preserving the context information. Using two different data sets, our evaluations show that the proposed cleaning method outperforms a set of baseline methods in terms of the detection and repair accuracy.},
+}
 
 @article{CKA22,
   title={XAIR: A Systematic Meta-Review of Explainable AI aligned to the Software Development Process},
@@ -120,7 +128,8 @@ preview={percom_2023.jpg}}
   preview={xair.jpg},
   selected={false},
   bibtex_show={true},
-  pdf={https://www.mdpi.com/2504-4990/5/1/6}
+  pdf={https://www.mdpi.com/2504-4990/5/1/6},
+  abstract={Currently, explainability represents a major barrier that Artificial Intelligence (AI) is facing in regard to its practical implementation in various application domains. To combat the lack of understanding of AI-based systems, Explainable AI (XAI) aims to make black-box AI models more transparent and comprehensible for humans. Fortunately, plenty of XAI methods have been introduced to tackle the explainability problem from different perspectives. However, due to the vast search space, it is challenging for ML practitioners and data scientists to start with the development of XAI software and to optimally select the most suitable XAI methods. To tackle this challenge, we introduce XAIR, a novel systematic metareview of the most promising XAI methods and tools. XAIR differentiates itself from existing reviews by aligning its results to the five steps of the software development process, including requirement analysis, design, implementation, evaluation, and deployment. Through this mapping, we aim to create a better understanding of the individual steps of developing XAI software and to foster the creation of real-world AI applications that incorporate explainability. Finally, we conclude with highlighting new directions for future research.},
 }
 
 @INPROCEEDINGS{AHS22, 
@@ -144,7 +153,8 @@ author={Mohamed Abdelaal and Rashmi Koparde and Harald Schoening},
   selected={false},
   bibtex_show={true},
   pdf={https://arxiv.org/pdf/2304.13636},
-  preview={aidm_2023.jpg},}
+  preview={aidm_2023.jpg},
+  abstract={Nowadays, machine learning (ML) plays a vital role in many aspects of our daily life. In essence, building well-performing ML applications requires the provision of high-quality data throughout the entire life-cycle of such applications. Nevertheless, most of the real-world tabular data suffer from different types of discrepancies, such as missing values, outliers, duplicates, pattern violation, and inconsistencies. Such discrepancies typically emerge while collecting, transferring, storing, and/or integrating the data. To deal with these discrepancies, numerous data cleaning methods have been introduced. However, the majority of such methods broadly overlook the requirements imposed by downstream ML models. As a result, the potential of utilizing these data cleaning methods in ML pipelines is predominantly unrevealed. In this work, we introduce a comprehensive benchmark, called REIN, to thoroughly investigate the impact of data cleaning methods on various ML models. Through the benchmark, we provide answers to important research questions, e.g., where and whether data cleaning is a necessary step in ML pipelines. To this end, the benchmark examines 38 simple and advanced error detection and repair methods. To evaluate these methods, we utilized a wide collection of ML models trained on 14 publicly-available datasets covering different domains and encompassing realistic as well as synthetic error profiles.},}
 
 @article{hilprecht2022diffml,
   title={DiffML: End-to-end Differentiable ML Pipelines},
@@ -159,6 +169,7 @@ author={Mohamed Abdelaal and Rashmi Koparde and Harald Schoening},
   pdf={https://arxiv.org/pdf/2207.01269},
   doi={https://doi.org/10.1145/3595360.3595857},  
   note={Best Paper Runner-up Award},
+  abstract={In this paper, we present our vision of differentiable ML pipelines called DiffML to automate the construction of ML pipelines in an end-to-end fashion. The idea is that DiffML allows to jointly train not just the ML model itself but also the entire pipeline including data preprocessing steps, e.g., data cleaning, feature selection, etc. Our core idea is to formulate all pipeline steps in a differentiable way such that the entire pipeline can be trained using backpropagation. However, this is a non-trivial problem and opens up many new research questions. To show the feasibility of this direction, we demonstrate initial ideas and a general principle of how typical preprocessing steps such as data cleaning, feature selection and dataset selection can be formulated as differentiable programs and jointly learned with the ML model. Moreover, we discuss a research roadmap and core challenges that have to be systematically tackled to enable fully differentiable ML pipelines.},
 }
 
 @PATENT{MA23b, 
@@ -216,7 +227,8 @@ selected={false},
 bibtex_show={true},
 pdf={https://www2.informatik.uni-stuttgart.de/bibliothek/ftp/ncstrl.ustuttgart_fi/INPROC-2020-36/INPROC-2020-36.pdf},
 preview={rtsca_2020.jpg},
-month={8}}
+month={8},
+abstract={Nowadays, autonomous driving and driver assistance applications are being developed at an accelerated pace. This rapid growth is primarily driven by the potential of such smart applications to significantly improve safety on public roads and offer new possibilities for modern transportation concepts. Such indispensable applications typically require wireless connectivity between the vehicles and their surroundings, i.e. roadside infrastructure and cloud services. Nevertheless, such connectivity to external networks exposes the internal systems of individual vehicles to threats from remotely-launched attacks. In this realm, it is highly crucial to identify any misbehavior of the software components which might occur owing to either these threats or even software/hardware malfunctioning. In this paper, we introduce AutoSec, a host-based anomaly detection algorithm which relies on observing four timing parameters of the executed software components to accurately detect malicious behavior on the operating system level. To this end, AutoSec formulates the task of detecting anomalistic executions as a clustering problem. Specifically, AutoSec devises a hybrid clustering algorithm for grouping a set of collected timing traces resulted from executing the legitimate code. During the runtime, AutoSec simply classifies a certain execution as an anomaly, if its timing parameters are distant enough from the boundaries of the predefined clusters. To show the effectiveness of AutoSec, we collected timing traces from a testbed composed of a set of real and virtual control units communicating over a CAN bus. We show that using our proposed AutoSec, compared to baseline methods, we can identify up to 21% less false positives and 18% less false negatives.},}
   
 @inproceedings{AKD20,
 author = {Abdelaal, Mohamed and Karadeniz, Mustafa and D\"urr, Frank and Rothermel, Kurt},
@@ -228,6 +240,7 @@ selected={false},
 bibtex_show={true},
 pdf={https://www2.informatik.uni-stuttgart.de/bibliothek/ftp/ncstrl.ustuttgart_fi/INPROC-2020-01/INPROC-2020-01.pdf},
 preview={ccnc_2020.png},
+abstract={Recently, named data networking (NDN) has been introduced to connect the world of computing devices via naming data instead of their containers. Through this strategic change, NDN brings several new features to network communication, including in-network caching, multipath forwarding, built-in multicast, and data security. Despite these unique features of NDN networking, there exist plenty of opportunities for continuing developments, especially with packet forwarding and caching. In this context, we introduce liteNDN, a novel forwarding and caching strategy for NDN networks. liteNDN comprises a cooperative forwarding strategy through which NDN routers share their knowledge, i.e. data names and interfaces, to optimize their packet forwarding decisions. Subsequently, liteNDN leverages that knowledge to estimate the probability of each downstream path to swiftly retrieve the requested data. Additionally, liteNDN exploits heuristics, such as routing costs and data significance, to make proper decisions about caching normal as well as segmented packets. The proposed approach has been extensively evaluated in terms of the data retrieval latency, network utilization, and the cache hit rate. The results showed that liteNDN, compared to conventional NDN forwarding and caching strategies, achieves much less latency while reducing the unnecessary traffic and caching activities.},
 } 
 
 @inproceedings{ADA19,
@@ -239,7 +252,8 @@ preview={ccnc_2020.png},
  month={11},
  selected={false},
  bibtex_show={true},
- preview={gaas.png}
+ preview={gaas.png},
+ abstract={Internet of Things (IoT) is expanding at a rapid rate where it allows for virtually endless opportunities and connections to take place. In general, IoT opens the door to a myriad of applications but also to many challenges. One of the major challenges is how to efficiently retrieve the sensory data from “resources-limited” IoT devices. Such devices typically have a restricted energy budget, which broadly hinders their direct connection to the Internet. In this realm, modern mobile devices, e.g. smartphones, tablets, smartwatches, have been harnessed to bridge between the low-power IoT devices and the Internet. However, the current vision which mainly relies on designing siloed gateways, i.e. a separate gateway/App for each IoT device, is certainly impractical, especially with the rapid growth in the number of IoT devices. Furthermore, energy efficiency of the smart mobile devices hosting the IoT gateways has to be thoroughly considered. To tackle these challenges, we introduce GaaS (Gateway as a Service), a cross-platform gateway architecture for opportunistically retrieving sensory data from the low-power IoT sensors. Through Bluetooth low energy radios, GaaS is capable of simultaneously connecting to several nearby IoT sensors. To this end, we devise two distinct priority-based scheduling algorithms, namely the EP-WSM and FEP-AHP schedulers, which rank the detected IoT sensors, before estimating the connection time for each IoT sensor. The intuition behind ranking the IoT sensors is to improve the data retrieval rate from these sensors together with reducing the energy overhead on the mobile devices. Additionally, GaaS encompasses a self-adaptive engine to automatically balance the trade-off between energy efficiency and data retrieval rate through switching between schedulers according to the runtime dynamics. To demonstrate the effectiveness of GaaS, we implemented an IoT testbed to evaluate the energy consumption, the latency, and the data retrieval rate. The results show that using GaaS, compared to siloed gateways, we can identify up to 18% savings in the consumed energy while requiring much less data retrieval time.},
 }
 
 @article{ASD19, 
@@ -253,7 +267,8 @@ month={1},
 volume={1},
 number={1},
 preview={tiot.jpg},
-pdf={https://www2.informatik.uni-stuttgart.de/bibliothek/ftp/ncstrl.ustuttgart_fi/ART-2020-03/ART-2020-03.pdf}
+pdf={https://www2.informatik.uni-stuttgart.de/bibliothek/ftp/ncstrl.ustuttgart_fi/ART-2020-03/ART-2020-03.pdf},
+abstract={In this paper, we introduce the MapSense approach that automatically derives indoor models from 3D point clouds collected by individuals using mobile devices, such as Google Tango, Apple ARKit, and Microsoft HoloLens. To this end, MapSense leverages several computer vision and machine learning algorithms for precisely inferring the structural objects. In MapSense, we mainly focus on improving the modeling accuracy through adopting formal grammars which encode design-time knowledge, i.e. structural information about the building. In addition to modeling accuracy, MapSense considers the energy overhead on the mobile devices via developing a probabilistic quality model through which the mobile devices solely upload high-quality point clouds to the crowd-sensing servers. To demonstrate the performance of MapSense, we implemented a crowdsensing Android App to collect 3D point clouds from two different buildings by six volunteers. The results showed that MapSense can accurately infer the various structural objects together with drastically reducing the energy overhead on the mobile devices.},
 }
 
 @INPROCEEDINGS{KAD18, 
@@ -268,7 +283,9 @@ bibtex_show={true},
 pdf={https://www2.informatik.uni-stuttgart.de/bibliothek/ftp/ncstrl.ustuttgart_fi/INPROC-2018-30/INPROC-2018-30.pdf},
 organization={IEEE},
 preview={greenmap.png},
-month={10}}
+month={10},
+abstract={In this paper,  we introduce GreenMap, an energy-aware architectural framework for automatically mapping the interior spaces using crowdsensed point clouds with the support of structural information encoded in formal grammars. GreenMap reduces the energy overhead through projecting the point clouds to several filtration steps on the mobile devices. In this context, GreenMap leverages the potential of approximate computing to reduce the computational cost of data filtering while maintaining a satisfactory level of modeling accuracy. To this end, we propose two approximation strategies, namely DyPR and SuFFUSION. To demonstrate the effectiveness of GreenMap, we implemented a crowdsensing Android App to collect 3D point clouds from two different buildings. We show that GreenMap achieves significant energy savings of up to 67.8%, compared to the baseline methods, while generating comparable floor plans.},
+}
 
 @article{ARD18,
  author = {Abdelaal, Mohamed and Reichelt, Daniel and D\"{u}rr, Frank and Rothermel, Kurt and Runceanu, Lavinia and Becker, Susanne and Fritsch, Dieter},
@@ -292,7 +309,8 @@ month={10}}
  preview={ubicomp.png},
  address = {New York, NY, USA},
  pdf={https://www2.informatik.uni-stuttgart.de/bibliothek/ftp/ncstrl.ustuttgart_fi/INPROC-2018-29/INPROC-2018-29.pdf},
- keywords = {Crowd-Sensing, Data Acquisition, Energy Efficiency, Formal Grammars, Point Clouds}
+ keywords = {Crowd-Sensing, Data Acquisition, Energy Efficiency, Formal Grammars, Point Clouds},
+ abstract={Recently, point clouds have been efficiently utilized for medical imaging, modeling urban environments, and indoor modeling. In this realm, several mobile platforms, such as Google Tango and Apple ARKit, have been released leveraging 3D mapping, augmented reality, etc. In modeling applications, these modern mobile devices opened the door for crowd-sourcing point clouds to distribute the overhead of data collection. However, uploading these large points clouds from resources-constrained mobile devices to the back-end servers consumes excessive energy. Accordingly, participation rates in such crowd-sensing systems can be negatively influenced. To tackle this challenge, this paper introduces our ComNSense approach that dramatically reduces the energy consumption of processing and uploading point clouds. To this end, ComNSense reports only a set of extracted geometrical data to the servers. To optimize the geometry extraction, ComNSense leverages formal grammars which encode design-time knowledge, i.e. structural information. To demonstrate the effectiveness of ComNSense, we performed several experiments of collecting point clouds from two different buildings to extract the walls location, as a case study. We also assess the performance of ComNSense relative to a grammar-free method. The results showed a significant reduction of the energy consumption while achieving a comparable detection accuracy.},
 }  
 
 @INPROCEEDINGS{AQD17, 
@@ -310,7 +328,9 @@ doi={10.1109/PCCC.2017.8280459},
 ISSN={},
 pdf={https://www2.informatik.uni-stuttgart.de/bibliothek/ftp/ncstrl.ustuttgart_fi/INPROC-2017-69/INPROC-2017-69.pdf},
 preview={ipccc_2017.png}, 
-month={12}}
+month={12},
+abstract={Recently, crowd-sensing has rapidly been evolved thanks to the technological advancement in personal mobile devices. This emerging technology opens the door for numerous applications to collect sensory data from the crowd. To provide people with a motive for participating in data acquisition, the crowd-sensing systems have to sidestep burdening the resources allocated to the mobile devices, i.e. computing power and energy budget. In this paper, we propose iSense, a novel framework for reducing the energy costs of participating in crowd-sensing. We mainly target the superfluous energy overhead on the mobile devices to sense and report their position information to the back-end servers. To relieve such an overhead, iSense entirely offloads the localization burden to the crowd-sensing servers. In this manner, iSense enables the utilization of advanced localization approaches thanks to the high resources of the crowdsensing servers. To this end, iSense opportunistically exploits the “already-existent” network signaling exchanged frequently between the mobile devices and the WiFi networks or the cellular networks. To collect the localization data, we implement a lightweight data collection algorithm on a set of off-theshelves access points. As a case study, we implement a twostep localization method, including a coarse- and a fine-grained localization. In this regard, compressed sensing is employed to estimate the fine-grained solution. To assess the effectiveness of iSense, we implemented a testbed to evaluate the energy consumption and the localization accuracy with different mobility and usage patterns. The results show that using iSense, compared to some baseline methods, we can identify up to 95% savings in the consumed energy.},
+}
 
 @inproceedings{ADR17,
  author = {Mohamed Abdelaal and Frank D\"urr and Kurt Rothermel and Susanne Becker and Dieter Fritsch},
@@ -322,6 +342,7 @@ month={12}}
  bibtex_show={true},
  pdf={https://web.archive.org/web/20210715095841id_/https://www2.informatik.uni-stuttgart.de/bibliothek/ftp/ncstrl.ustuttgart_fi/INPROC-2017-58/INPROC-2017-58.pdf}, 
  preview={mobiquitous.jpg},
+ abstract={Recently, several approaches have been proposed to automatically model indoor environments. Most of such efforts principally rely on the crowd to sense data such as motion traces, images, and WiFi footprints. However, large datasets are usually required to derive precise indoor models which can negatively affect the energy efficiency of the mobile devices participating in the crowd-sensing system. Furthermore, the aforementioned data types are hardly suitable for deriving 3D indoor models. To overcome these challenges, we propose GraMap, a QoS-aware automatic indoor modeling approach through crowd-sensing 3D point clouds. GraMap exploits a recently-developed sensors fusion mechanism, namely Tango technology, to cooperatively collect point clouds from the crowd. Afterward, a set of backend servers extracts the required geometrical information to derive indoor models. For the sake of improving the energy efficiency of the mobile devices, GraMap performs data quality assurance along with 3D data compression. Specifically, we propose a probabilistic quality model—implemented on the mobile devices—to ensure high-quality of the captured point clouds. In this manner, we conserve energy via sidestepping the repetition of sensing queries due to uploading low-quality point clouds. Nevertheless, the resultant indoor models may still suffer from incompleteness and inaccuracies. Therefore, GraMap leverages formal grammars which encode design-time knowledge, i.e. structural information about the building, to enhance the quality of the derived models. To demonstrate the effectiveness of GraMap, we implemented a crowd-sensing Android App to collect point clouds from volunteers. We show that GraMap derives highly-accurate models while reducing the energy costs of pre-processing and reporting the point clouds.},
 } 
 
 @inproceedings{APT15,
@@ -342,6 +363,7 @@ month={12}}
   selected={false},
  bibtex_show={true},
  pdf={https://www.researchgate.net/publication/300408685_QoS_Improvement_with_Lifetime_Planning_in_Wireless_Sensor_Networks},
+ abstract={Energy efficiency is an important goal for Wireless Sensor Network (WSN) designers. However, successful implementations of such networks are highly dependent on the enabling technologies, as well as on the provisioning of Quality of Service(QoS) in the network. In this paper, we propose a novel strategy, referred to as the lifetime planning for achieving best-effort QoS. Simultaneously, an adequate lifetime required to complete the assigned task is reached. The core idea is to sidestep lifetime maximization strategies in which sensor nodes continue functioning even after the fulfillment of the required task. In these cases, we could deliberately bound the operational lifetime to the expected task lifetime. As a result, more energy can be spent throughout the entire task lifetime for enhancing the provided service qualities. An analytical QoS model is engineered to validate the QoS’s “conflicts-free” nature of lifetime planning. The proposed strategy is feasible via the design of QoS boundaries at design-time. During run-time, the controllable parameters are modulated by a proactive adaptation mechanism. To demonstrate the effectiveness of our design, we conduct an intensive performance evaluation using an office monitoring scenario in a cluster-tree WSN topology. The scenario has been designed in the Contiki network simulator Cooja using Tmote sky motes. Furthermore, we examine the profit of adopting our strategy relative to fixed heuristics and blind adaptation.},
 }
 
 @inproceedings{VAT15,
@@ -399,6 +421,7 @@ abstract={Wireless sensor networks have been recognized as promising tools to co
   bibtex_show={true},
   selected={false},
   pdf={https://www.researchgate.net/publication/380210586_FuzzyCAT_A_Novel_Procedure_for_Refining_the_F-transform_Based_Sensor_Data_Compression},
+  abstract={This paper aims at developing a novel compression technique which breaks the "downward spiral" between compression ratio and recovery precision. Based on the previously developed Fuzzy Transform Compression (FTC), we design and implement a modified version of the algorithm, referred to as Fuzzy Compression Adaptive Transform (FuzzyCAT). The crux of FuzzyCAT is to adapt the transform parameters to the signal's curvature inferred from the time derivatives , thus smartly exploiting the trade off between compression ratio and precision. A comparative study with the Lightweight Temporal Compression (LTC) technique revealed that transmission costs of the FuzzyCAT nodes are much less than that of the LTC, which makes it an outstanding candidate for data compression in WSNs.},
 }
 
 
@@ -417,8 +440,6 @@ abstract={Wireless sensor networks have been recognized as promising tools to co
   abstract={Several 'energy-hungry' sensors such as gas detectors, radar, and cameras have excessive energy dissipation. Virtual sensing is a technique which 'breaks the downward spiral' between energy expenditure and events-miss probabilities. The idea is to deactivate main sensors and utilize a set of energy-friendly HW & SW components instead. However, reliability of such systems composed of virtual and real sensors should be as high as possible. In this article, a novel approach is proposed to improve the virtual sensing reliability. An ontology on sensor-environment relationships is utilized to automatically generate rules before deployment to switch between real and virtual sensors. We illustrate the general approach by a case study: we show how reliable virtual sensing reduces the energy consumption and event-miss probabilities of object tracking applications. Seismic sensors and a dynamic time-warping algorithm shape the virtual object tracking sensor. We validate the precision of such virtual sensors over several experiments. A series of experiments with a network of TelosB sensor nodes show that virtual sensors have much less energy consumption than a Doppler μ-radar (main) sensor. Finally, we evaluate event-miss probabilities and lifetime extension by using the WSNet simulator.},
   pdf={https://www.researchgate.net/publication/281769902_Reliable_virtual_sensing_for_wireless_sensor_networks},
 }
-
-
 
 @inproceedings{A15,
   author    = {Mohamed Abdelaal},
@@ -722,4 +743,6 @@ abstract={Wireless Sensor Networks have been used in many applications including
   preview={bachelor.png},
   bibtex_show={true},
   selected={false},
+  abstract={Mobile robotics is a young field. Its roots include many engineering and science disciplines, from mechanical, electrical and electronics engineering to computer, cognitive and social sciences. Our project focuses on the electrical, electronics and control fields. Our objectives of this project are to build three robots, one robot is manual and two robots are automatic, we participate in the ROBOCON contest by the three robots. We use (PLC) "Programmable Logic Controller" technology to perform Robot operations as it is versatile and reliable device and can be programmed to perform the necessary required operations. Consequently, it is used in wide range of modern industries applications. Also, implement navigation system by using Line tracking technique where Robot can track a line to reach its target, that's can be achieved by optical sensors. it can be shared in industrial operations as it can be programmed to perform many functions like as handling goods and entering dangerous zones that contain harmful materials. We participated in MIE (Made in Egypt) 2008 competition which aims to link the education with industry. Also, we represent our university in ROBOCON EGYPT 2008 contest which develop the creativity and innovation skills. We must mention that our project provide robotics technology in Egypt which become the basic of all modern industries.},
+  pdf={https://www.researchgate.net/publication/380262969_An_Autonomous_Mobile_Robot_for_Industrial_Operations},
 }
