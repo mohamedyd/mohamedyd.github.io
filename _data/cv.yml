@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 21st August 1986
     - name: Languages
-      value: English, German, Arabic
+      value: English (fluent), German (intermediate), Arabic (native)
 
 - title: Education
   type: time_table
@@ -79,7 +79,7 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: vice chairman
+    - title: Vice Chairman
       items:
         - Port Said Engineering Day PSED 2009-2011, organized by the Port Said IEEE student branch
     - title: Participate in organizing
