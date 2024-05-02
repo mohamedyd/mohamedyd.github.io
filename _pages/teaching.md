@@ -1,24 +1,29 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: 
 nav: true
 nav_order: 6
 ---
 ## Lectures
 ---
-- Real-time Concepts for Embedded Systems (WS2019/20), University of Sttutgart, Germany
+- Real-time Concepts for Embedded Systems (WS2019/20), University of Sttutgart, Germany (Below are more details about the course)
 - Real-time Concepts for Embedded Systems (WS2018/19), University of Sttutgart, Germany
 - Distributed Systems 2018/19 (Jointly with Prof. Dr. Kurt Rothermel), University of Sttutgart, Germany
 - Distributed Systems 2017/18 (Jointly with Prof. Dr. Kurt Rothermel), University of Sttutgart, Germany
 - Distributed Systems 2016/17 (Jointly with Prof. Dr. Kurt Rothermel), University of Sttutgart, Germany
+- Digital signal processing, communication theory, integrated
+circuits, electrical circuits (2011-2012), Port Said University, Egypt
+- Solid-state devices, electronic circuits, digital circuits,
+digital communication, satellite communication, and microprocessor design (2009-2011), Suez Canal University, Egypt
 
 ---
 ## Seminars
 ---
-- Advanced Topics in Distributed Systems, Smart Microsystems in Autonomous Driving Applications (2017/18), University of Sttutgart, Germany
+- Advanced Topics in Distributed Systems, Smart Microsystems in Autonomous Driving Applications (2017/18), University of Sttutgart, Germany (Below are more details about the seminar)
 - Advanced Topics in Distributed Systems, Smart Microsystems in Autonomous Driving Applications (2018/19), University of Sttutgart, Germany
+- Security in mobile-based services (2017/18), University of Sttutgart, Germany
 
 ---
 ## Real-time Cocepts for Embeeded Systems
@@ -32,6 +37,15 @@ Many of nowadays-embedded systems are designed to work in real time, e.g., autom
 * Inter-task communication
 * Memory Management
 * File I/O Management
+
+ <div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/rtc.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Covered topics in the course shown within a lyered architecture of real-time systems
+</div>
 
 ---
 ## Advanced Topics in Distributed Systems: Smart Microsystems in Autonomous Driving Applications
