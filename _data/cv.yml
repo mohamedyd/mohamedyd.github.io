@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Mohamed Abdelaal
-    - name: Date of Birth
-      value: 21st August 1986
     - name: Languages
       value: English (fluent), German (intermediate), Arabic (native)
 
@@ -15,14 +13,14 @@
       institution: Carl von Ossietsky University of Oldenburg
       year: 2016
       description:
-        - Dissertation: Enabling Energy-Efficient Wireless Sensing with Improved Service Quality 
-        - Supervisors: Prof. Dr.-Ing. Oliver Theel, Prof. Dr. Daniela Nicklas
+        - "Dissertation: Enabling Energy-Efficient Wireless Sensing with Improved Service Quality" 
+        - "Supervisors: Prof. Dr.-Ing. Oliver Theel, Prof. Dr. Daniela Nicklas"
     - title: Master of Science (MSc)  
       institution: Port Said University
       year: 2011
       description:
-        - Dissertation: An Efficient Power Reduction Technique for Wireless Sensor networks
-        - Supervisors: Prof. Dr. Rabie Ramadan, Prof. Dr. Mohamed Abdel-Meguid, Dr. Ahmad Shaaban
+        - "Dissertation: An Efficient Power Reduction Technique for Wireless Sensor networks"
+        - "Supervisors: Prof. Dr. Rabie Ramadan, Prof. Dr. Mohamed Abdel-Meguid, Dr. Ahmad Shaaban"
 
 - title: Experience
   type: time_table
@@ -31,20 +29,20 @@
       institution: Software AG, Darmstadt, Germany
       year: 2020 - now
       description:
-        - Leading several national and international research projects
-        - Representing Software AG towards partners and funding agencies, e.g., BMBF and ITEA
-        - Acquiring new projects, e.g., Engineering Large Foundation Models for Enterprise Integration
-        - Developed several tools for automated data cleaning and machine learning pipeline orchestration
-        - Creating reports & deliverables within deadlines, & liaising with the product development teams
-        - Generating multiple patents and research papers published in highly-ranked conferences
+        - "Leading several national and international research projects"
+        - "Representing Software AG towards partners and funding agencies, e.g., BMBF and ITEA"
+        - "Acquiring new projects, e.g., Engineering Large Foundation Models for Enterprise Integration"
+        - "Developed several tools for automated data cleaning and machine learning pipeline orchestration"
+        - "Creating reports & deliverables within deadlines, & liaising with the product development teams"
+        - "Generating multiple patents and research papers published in highly-ranked conferences"
 
     - title: Postdoctoral Researcher
       institution: University of Stuttgart, Stuttgart, Germany
       year: 2016 - 2020
       description:
-        - Leading several national and international projects, with supervising multiple students
-        - Developed several data-driven tools for energy-efficient IoT applications, e.g., indoor mapping
-        - Created and instructed several graduate-level courses, e.g., real-time concepts in embedded systems, distributed systems, mobile computing lab, and autonomous driving seminar
+        - "Leading several national and international projects, with supervising multiple students"
+        - "Developed several data-driven tools for energy-efficient IoT applications, e.g., indoor mapping"
+        - "Created and instructed several graduate-level courses, e.g., real-time concepts in embedded systems, distributed systems, mobile computing lab, and autonomous driving seminar"
 
     - title: Research Associate
       institution: University of Oldenburg, Oldenburg (Olden), Germany 
@@ -57,13 +55,13 @@
       institution: IUBH Technical University, Germany
       year: 2018 - 2019
       description:
-        - Authored a 170-page course book for an online graduate program detailing IoT architectures, use cases, and fundamental technologies such as cloud services and communication networks.
+        - "Authored a 170-page course book for an online graduate program detailing IoT architectures, use cases, and fundamental technologies such as cloud services and communication networks."
 
     - title: Assistant Lecturer
       institution: Port Said University, Egypt
       year: 2009 - 2012
       description: 
-        - Involved in the ApplS-LAB project, and tutored several undergrad courses, e.g., communication theory
+        - "Involved in the ApplS-LAB project, and tutored several undergrad courses, e.g., communication theory"
 
 - title: Honors and Awards
   type: time_table
@@ -90,3 +88,7 @@
     - title: Reviewer
       items:
         - Served as a reviewer in several conferences and journals, e.g. IEEE Access Journal, Pervasive and Mobile Computing Journal (Elsevier), ACM Transactions on IoT, and ACM Symposium on Principles of Distributed Computing (PODC)
+    - title: Selected Conference Talks
+      items:
+        - <a href='https://www.youtube.com/watch?v=b7jucx6nXl8&t=765s'>REIN, Comprehensive Benchmark Framework for Data Cleaning in ML Pipelines</a> (EDBT'23)
+        - <a href='https://www.youtube.com/watch?v=jp0cjxXYHkc'>DiffML, End-to-end Differentiable ML Pipelines</a> (DEEM'23)
