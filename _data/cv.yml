@@ -90,5 +90,11 @@
         - Served as a reviewer in several conferences and journals, e.g. IEEE Access Journal, Pervasive and Mobile Computing Journal (Elsevier), ACM Transactions on IoT, and ACM Symposium on Principles of Distributed Computing (PODC)
     - title: Selected Conference Talks
       items:
-        - <a href='https://www.youtube.com/watch?v=b7jucx6nXl8&t=765s'>REIN, Comprehensive Benchmark Framework for Data Cleaning in ML Pipelines</a> (EDBT'23)
-        - <a href='https://www.youtube.com/watch?v=jp0cjxXYHkc'>DiffML, End-to-end Differentiable ML Pipelines</a> (DEEM'23)
+        - <a href='https://youtu.be/b7jucx6nXl8'>REIN, Comprehensive Benchmark Framework for Data Cleaning in ML Pipelines</a> (EDBT'23)
+        - <a href='https://youtu.be/jp0cjxXYHkc'>DiffML, End-to-end Differentiable ML Pipelines</a> (DEEM@SIGMOD'23)
+        - <a href='https://www.researchgate.net/publication/380291553_SAGED_Few-Shot_Meta_Learning_for_Tabular_Data_Error_Detection'>SAGED, Meta learning-powered Error Detection Technique for Tabular Data</a> (EDBT'24)
+        - <a href='https://www.researchgate.net/publication/380291279_AutoCure_Automated_Data_Curation_Framework_for_ML_Pipelines'>AutoCure, Automated Data Curation Framework for ML Pipelines</a> (aiDM@SIGMOD'23)
+
+    - title: Invited Talks
+      items:
+        - <a href='https://www.researchgate.net/publication/380291488_Automated_Data_Cleaning_Innovative_Approaches_and_Research_Challenges'>Budapest MLOps meetup 2023</a>
