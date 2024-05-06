@@ -7,74 +7,20 @@ importance: 5
 category: Completed
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The SCARE project, funded by the German Research Foundation (DFG), is focused on the challenges faced by wireless sensing systems operating in dynamic and potentially unpredictable environments. These systems must maintain desired behavioral properties despite the changing conditions they encounter—a concept referred to as system correctness. SCARE's research is vital as it tackles the complexities of ensuring system safety and functionality when faced with only partially predictable or adverse conditions that can significantly influence both system behavior and the context in which the system operates.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+To delve deeper into these challenges, SCARE has identified specific research questions and themes across three primary aspects:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<ul><li>Limited Knowledge (Aspect A): The project explores the interplay between the environment (Env) and the system assumptions (Asm), focusing on their impact on the satisfaction relation (sat) in the correctness formula. Key questions include:</li>
+<ul><li>How to model and maintain knowledge about the dynamic environment and its impacts on the system?</li>
+<li>How to ensure and prove system safety despite uncertain or inaccurate information from environmental sensors? </li></ul>
+<li>Unpredictable Behavior (Aspect B): This aspect involves analyzing different assumptions about the environmental and system models to refine the correctness relation (sat). Research questions in this area include:</li>
+<ul><li>How can the degradation of components, such as aging transistors which may increase latency, be incorporated into the verification process?
+What methods can be developed to enhance fault tolerance strategies, including necessary redundancy and fault masking capabilities?</li>
+<li>How can systems be designed to degrade gracefully when discrepancies arise between the modeled and actual system behaviors or component failures occur? </li></ul>
+<li>Changing System Environment and Structure (Aspect C): SCARE investigates how the robustness of the satisfaction relation (sat) can be maintained amidst changes in the system's environment (Env) and structure (Sys). Important questions here are:</li>
+<ul><li>How can verification processes remain robust against resource changes? </li>
+<li>How to model and analyze system dynamics to reflect the dependency of system behavior on its structure and components?</li>
+<li>How can changes in the system be reliably detected and assessed? </li></ul></ul>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+The research themes in SCARE encompass modeling techniques, verification and analysis techniques, and constructive techniques that combine formal methods with engineering approaches. By addressing these themes, SCARE aims to advance the field of system verification under adverse conditions, thereby enhancing the reliability and safety of complex system interactions in unpredictable environments. This comprehensive approach not only pushes the boundaries of current methodologies but also contributes to the foundational understanding necessary for future technological advancements in wireless sensing systems.
