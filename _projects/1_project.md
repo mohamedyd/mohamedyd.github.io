@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "KompAKI"
-description: In this project, we develop automated AI tools. Specifically, we seek to increase level of automation while preparing tabular data in ML pipelines.
+title: KompAKI
+description: Developing automated AI tools to increase level of automation while preparing tabular data in ML pipelines.
 img: assets/img/kompaki.png
 importance: 1
 category: Active
