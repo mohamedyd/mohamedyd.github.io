@@ -2,7 +2,7 @@
 layout: page
 title: "ETNS"
 description: Development of interative explainability tool for NLP systems
-img:
+img: assets/img/xai.jpg
 importance: 7
 category: Active
 ---

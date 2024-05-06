@@ -2,7 +2,7 @@
 layout: page
 title: "COMBINE"
 description: Customization of classification ensembles based on data characteristics
-img:
+img: assets/img/combine.jpg
 importance: 8
 category: Active
 ---

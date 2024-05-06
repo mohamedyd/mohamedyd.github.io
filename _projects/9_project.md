@@ -2,7 +2,7 @@
 layout: page
 title: "ValIoT"
 description: Active data validation to increase fault tolerance in model-driven model-driven IoT applications
-img:
+img: assets/img/iot.png
 importance: 9
 category: Completed
 ---

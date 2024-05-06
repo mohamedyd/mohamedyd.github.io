@@ -2,7 +2,7 @@
 layout: page
 title: "XAI4ML"
 description: Developing XAI-based tools to enhance ML models considering different data modalities
-img:
+img: assets/img/xair.png
 importance: 6
 category: Completed
 ---

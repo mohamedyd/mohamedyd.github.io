@@ -2,7 +2,7 @@
 layout: page
 title: "ApplS-LAB"
 description: Applied Sensing Technology Research Laboratory
-img:
+img: assets/img/publication_preview/wsn.jpg
 importance: 10
 category: Completed
 ---
