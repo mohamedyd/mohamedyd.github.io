@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "SCARE"
-description: a project with a background image
+description: System Correctness Under Adverse Conditions 
 img: assets/img/1.jpg
 importance: 5
 category: Completed
