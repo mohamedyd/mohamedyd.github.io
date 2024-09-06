@@ -37,7 +37,9 @@ booktitle={International Conference on Very Large Data Bases (VLDB)},
 title={Generalizable Data Cleaning of Tabular Data in Latent Space},
 year={2025},
 bibtex_show={true},
-preview={under_review.png}}
+selected={true},
+abstract={In this paper, we present a new method for learned data cleaning. In contrast to existing methods, our method learns to clean data in the latent space. The main idea is that we (1) shape the latent space such that we know the area where clean data resides and (2) learn latent operators trained on error repair (Lopster) which shift erroneous data (e.g., table rows with noise, outliers, or missing values) in their latent representation back to a “clean” region, thus abstracting the complexities of the input domain. When formulating data cleaning as a simple shift operation in latent space, we can repair all types of errors using the same method which makes it more robust than other methods. Importantly, with our method, we can handle errors that are unseen during the training of our error repair model. We do not rely on an external error detection method as seen in the state-of-the-art, instead, we handle both detection and repair within the Lopster framework. In our evaluation, we show that our approach outperforms existing cleaning methods even when trained on only a subset of the errors that occur in the dirty data.},
+preview={vldb2025_logo.png}}
 
 @INPROCEEDINGS{abdelaalreclean,
   title={ReClean: Reinforcement Learning for Automated Data Cleaning in ML Pipelines},
