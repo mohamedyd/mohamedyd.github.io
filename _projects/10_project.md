@@ -14,5 +14,3 @@ The ApplS-LAB Project—funded by Cairo University—focuses on improving the Qo
 <li>Throughput Maximization: Optimizing network protocols to increase the data rate that can be handled by the network, thereby improving the efficiency of data flow and processing in applications requiring high data volumes.</li>
 <li>Energy Efficiency: Introducing power management techniques that extend the lifespan of sensor nodes, which is particularly important in remote or inaccessible deployment areas.</li>
 <li>Scalability and Flexibility: Designing networks that can easily scale up or adapt to changing conditions and requirements, supporting a wide range of applications from agricultural monitoring to urban traffic management.</li></ul>
-
-

@@ -13,9 +13,9 @@
       institution: Carl von Ossietsky University of Oldenburg
       year: 2016
       description:
-        - "Dissertation: Enabling Energy-Efficient Wireless Sensing with Improved Service Quality" 
+        - "Dissertation: Enabling Energy-Efficient Wireless Sensing with Improved Service Quality"
         - "Supervisors: Prof. Dr.-Ing. Oliver Theel, Prof. Dr. Daniela Nicklas"
-    - title: Master of Science (MSc)  
+    - title: Master of Science (MSc)
       institution: Port Said University
       year: 2011
       description:
@@ -25,7 +25,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Senior Research Scientist 
+    - title: Senior Research Scientist
       institution: Software AG, Darmstadt, Germany
       year: 2020 - now
       description:
@@ -45,7 +45,7 @@
         - "Created and instructed several graduate-level courses, e.g., real-time concepts in embedded systems, distributed systems, mobile computing lab, and autonomous driving seminar"
 
     - title: Research Associate
-      institution: University of Oldenburg, Oldenburg (Olden), Germany 
+      institution: University of Oldenburg, Oldenburg (Olden), Germany
       year: 2012 - 2016
       description:
         - Developed data-driven tools for QoS-aware Wireless Sensor Networks & BLE-based localization
@@ -60,7 +60,7 @@
     - title: Assistant Lecturer
       institution: Port Said University, Egypt
       year: 2009 - 2012
-      description: 
+      description:
         - "Involved in the ApplS-LAB project, and tutored several undergrad courses, e.g., communication theory"
 
 - title: Honors and Awards
