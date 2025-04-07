@@ -2,7 +2,7 @@
 layout: about
 title: Bio
 permalink: /
-subtitle: Senior Research Scientist at Software AG
+subtitle: AI Architect for Adabas & Natural at Software GmbH
 
 profile:
   align: right
@@ -14,14 +14,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I serve as a Senior Research Scientist and Project Leader at <a href='https://www.softwareag.com/'> Software AG</a> located in Darmstadt, Germany. I am responsible for the publicly-funded collaborative research projects. We cooperate with many companies and research institutions, primarily in Germany and Europe. In this role, I manage and work on several research projects related to machine learning, data quality, and MLOps. In 2023, I received the Elevating Excellence Award in innovation for my work at Software AG.
+I serve as an AI Architect for Adabas & Natural at <a href='https://www.softwareag.com/'> Software GmbH</a> located in Darmstadt, Germany, driving AI innovation and product development within the Adabas & Natural ecosystem. My focus is on identifying impactful AI use cases, designing scalable AI solutions, and collaborating with key technology partners to modernize enterprise applications with AI. I am also responsible for the development of the AI/ML strategy and roadmap for the Adabas & Natural product line, ensuring alignment with the overall company strategy. My role involves close collaboration with cross-functional teams, including product management, engineering, and data science, to deliver high-quality AI solutions that meet customer needs.  
 
-My academic and professional journey is a testament to my passion for research and innovation. I pursued my Ph.D. in Computer Science at the University of Oldenburg, Germany, where my thesis focused on the intersection of energy efficiency and service quality in wireless sensing. Following my doctorate, I continued to explore the realms of AI and IoT through postdoctoral research and as a lecturer at the University of Stuttgart, Germany.
+Previously, I worked for 4.5 years as a Senior Research Scientist and Project Leader at Software AG, leading publicly funded collaborative research projects across Germany and Europe. I had the privilege of working closely with industry leaders and research institutions, managing projects in machine learning, data quality, and MLOps. My research efforts led to five patent applications and over 15 publications in international conferences. For my contributions, I was honored with the Elevating Excellence Award in Innovation at Software AG.
 
-## Research interests
+I hold a Ph.D. in Computer Science from the University of Oldenburg, Germany, with extensive experience in energy-efficient IoT solutions. My research has focused on democratizing AI systems, enhancing data quality, context modeling, and explainable AI. In total, I have published over 30 conference papers and journal articles and hold multiple patents.
 
-- Data quality (Data profiling and cleaning) for AI/GenAI
-- AI/GenAI for data quality
+## Technical Interests
+- AI/GenAI for enterprise applications
+- AI/GenAI for data engineering
 - ML engineering (MLOps)
 - Explainable AI and data valuation
 - Internet of Things/Wireless Sensor Networks
