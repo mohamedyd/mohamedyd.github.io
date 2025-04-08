@@ -25,9 +25,19 @@
 - title: Experience
   type: time_table
   contents:
+    - title: AI Architect for Adabas \& Natural
+      institution: Software GmbH, Stuttgart, Germany
+      year: 2024 - now
+      description:
+        - "Leading the AI strategy for Adabas and Natural, including the development of a large language model (LLM) for enterprise integration"
+        - "Developing a comprehensive AI strategy for Software AG, including the integration of LLMs into existing products and services"
+        - "Collaborating with cross-functional teams to identify and prioritize AI use cases that align with business objectives"
+        - "Conducting research on emerging AI technologies and trends to inform product development and innovation"
+        - "Building and leading a team of AI experts to drive the company's AI initiatives"
+    
     - title: Senior Research Scientist
       institution: Software AG, Darmstadt, Germany
-      year: 2020 - now
+      year: 2020 - 2024
       description:
         - "Leading several national and international research projects"
         - "Representing Software AG towards partners and funding agencies, e.g., BMBF and ITEA"
