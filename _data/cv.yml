@@ -27,13 +27,22 @@
   contents:
     - title: AI Architect for Adabas \& Natural
       institution: Software GmbH, Stuttgart, Germany
-      year: November 2024 - Present
+      year: 2024 - Now
       description:
-        - "Leading the AI strategy for Adabas and Natural, including the development of a large language model (LLM) for enterprise integration"
-        - "Developing a comprehensive AI strategy for Software AG, including the integration of LLMs into existing products and services"
-        - "Collaborating with cross-functional teams to identify and prioritize AI use cases that align with business objectives"
-        - "Conducting research on emerging AI technologies and trends to inform product development and innovation"
-        - "Building and leading a team of AI experts to drive the company's AI initiatives"
+        - Identifying AI use cases, contributing directly to product innovation within Adabas & Natural ecosystem
+        - Led the Natural AI Code Assistant project, leveraging LLMs for code generation and optimization within the Adabas & Natural ecosystem, accelerating modernization for enterprise mainframe applications.
+        - Developed an MVP with an API-first approach, enabling seamless integration into existing workflows and facilitating rapid prototyping for customer feedback.
+        - Implemented advanced agentic workflows using Langchain and Langgraph, enabling dynamic, context-aware code generation and problem-solving capabilities.
+        - Pioneered self-corrective strategies to iteratively enhance code quality and reliability in Natural language generation.
+        - Integrated semantic RAG pipelines to incorporate internal Natural documentation, improving contextual accuracy and usability of the code assistant.
+        - Connected local and remote tools via MCP servers, expanding the assistant’s capabilities and supporting hybrid deployment scenarios.
+        - Fine-tuned multiple open-source LLMs (Mistral, DeepSeek, Qwen Coder) for high-accuracy Natural code generation, optimizing for enterprise workloads.
+        - Conducted customer interviews and innovation labs to gather requirements, validate use cases, and provide hands-on experience to clients, driving adoption and shaping the product roadmap.
+        - Collaborated cross-functionally with R&D, UX, and legal teams to ensure technical feasibility, exceptional user experience, and regulatory compliance.
+        - Participated in the selection and onboarding of development partners, acting as product owner to ensure alignment with business and technical requirements throughout the productionization process.
+        - Supervised a multidisciplinary team of researchers and students, overseeing initiatives in data generation and MCP server development.
+        - Led product testing cycles and continuous improvement efforts, ensuring delivery of high-quality, customer-centric AI solutions.
+
     
     - title: Senior Research Scientist
       institution: Software AG, Darmstadt, Germany
