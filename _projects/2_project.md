@@ -4,7 +4,7 @@ title: "IML4E"
 description: Developing the IML4E framework, covering methods, techniques and tools that are dedicated to deliver and maintain high quality smart software in efficient, scalable and manageable processes.
 img: assets/img/iml4e.png
 importance: 2
-category: Active
+category: Completed
 ---
 
 The [IML4E project](https://iml4e.org/) is an European initiative partially funded by the German Federal Ministry of Research and Education (BMBF) through ITEA3. IML4E brings together 18 partners from Germany, Finland, and Hungary. Software AG takes on a pivotal role as the head of the national consortium in Germany. Additionally, it spearheads the second work package on an international scale.
