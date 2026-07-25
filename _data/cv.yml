@@ -84,6 +84,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - Recognized as an IBM Z and LinuxONE Community Contributor 2026 (Level 1) through the IBM Advocacy Program
+    - year: 2025
+      items:
+        - Received the ITEA Award of Excellence for Standardisation for contributions to the IML4E project
     - year: 2023
       items:
         - Received the Best Paper Runner-up award at DEEM'23
