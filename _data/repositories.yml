@@ -1,14 +1,64 @@
-github_users:
-  - mohamedyd
+# GitHub profile
+github_username: mohamedyd
+github_profile: https://github.com/mohamedyd
 
-github_repos:
-  - mohamedyd/awesome_resources
-  - mohamedyd/GLLM
-  - mohamedyd/rein-benchmark
-  - mohamedyd/SAGED
-  - mohamedyd/AutoCure
-  - mohamedyd/ReClean
-  - mohamedyd/RTClean
-  - mohamedyd/D3Bench
-  - mohamedyd/data_cleaning_with_latent_operators
-  - mohamedyd/Energy_efficient-WSNs
+# Static snapshot of selected repositories.
+# Data fetched from the GitHub API; refresh stars/forks/descriptions periodically.
+repositories:
+  - name: rein-benchmark
+    url: https://github.com/mohamedyd/rein-benchmark
+    description: A comprehensive benchmark for data cleaning methods and their impact on ML models.
+    language: Python
+    stars: 16
+    forks: 5
+  - name: awesome_ml_resources
+    url: https://github.com/mohamedyd/awesome_ml_resources
+    description: A curated collection of resources across different ML domains.
+    stars: 14
+    forks: 4
+  - name: GLLM
+    url: https://github.com/mohamedyd/GLLM
+    description: "Source code for the paper: Self-Corrective G-Code Generation using Large Language Models with User Feedback."
+    language: Python
+    stars: 12
+    forks: 7
+  - name: ReClean
+    url: https://github.com/mohamedyd/ReClean
+    description: "Source code for the paper: ReClean: Reinforcement Learning for Automated Data Cleaning in ML Pipelines."
+    language: Python
+    stars: 2
+    forks: 0
+  - name: SAGED
+    url: https://github.com/mohamedyd/SAGED
+    description: "Source code for the paper: SAGED: Few-Shot Meta Learning for Tabular Data Error Detection."
+    language: Python
+    stars: 1
+    forks: 0
+  - name: Energy_efficient-WSNs
+    url: https://github.com/mohamedyd/Energy_efficient-WSNs
+    description: "Time-series prediction for energy-efficient wireless sensor networks: detecting plant diseases in greenhouses."
+    stars: 1
+    forks: 0
+  - name: AutoCure
+    url: https://github.com/mohamedyd/AutoCure
+    description: "Source code for the paper: AutoCure: Automated Tabular Data Curation for ML Pipelines."
+    language: Python
+    stars: 0
+    forks: 0
+  - name: D3Bench
+    url: https://github.com/mohamedyd/D3Bench
+    description: A benchmark of open-source drift-detection tools.
+    language: HTML
+    stars: 0
+    forks: 3
+  - name: data_cleaning_with_latent_operators
+    url: https://github.com/mohamedyd/data_cleaning_with_latent_operators
+    description: Code repository for the LOP paper on data cleaning in latent space.
+    stars: 0
+    forks: 0
+  - name: RTClean
+    url: https://github.com/mohamedyd/RTClean
+    description: Real-time automated data cleaning for ML pipelines.
+    language: Python
+    stars: 0
+    forks: 0
