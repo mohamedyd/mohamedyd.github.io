@@ -4,7 +4,7 @@ title: "COMBINE"
 description: Customization of classification ensembles based on data characteristics
 img: assets/img/combine.jpg
 importance: 8
-category: Active
+category: Completed
 ---
 
 This project, a key initiative within the [Software Campus](https://softwarecampus.de/) program, receives its funding from the German Federal Ministry of Education and Research (BMBF). It is a collaborative effort that brings together the industry expertise of Software AG with the academic excellence of the University of Stuttgart, aiming to foster innovation and leadership in the field of technology.

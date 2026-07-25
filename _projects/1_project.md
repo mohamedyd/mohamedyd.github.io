@@ -4,7 +4,7 @@ title: KompAKI
 description: Developing automated AI tools to increase level of automation while preparing tabular data in ML pipelines.
 img: assets/img/kompaki.png
 importance: 1
-category: Active
+category: Completed
 ---
 
 The [KompAKI project](https://kompaki.de/) is dedicated to establishing a center of excellence for Artificial Intelligence (AI) in the workplace, situated in the Rhine-Main area of Germany. KompAKI is a national initiative, which receives partial funding from the German Federal Ministry of Research and Education (BMBF). This initiative boasts a robust collaboration of 19 partners from both industry and academia. It includes 11 research affiliates from the Technical University of Darmstadt and the Darmstadt University of Applied Sciences, alongside eight corporate entities. Additionally, the IHK Darmstadt Service GmbH and affiliated partners such as IG Metall contribute significantly to the project, enriching it with a diverse range of expertise and resources. The KompAKI project underscores the necessity for a tightly integrated approach to AI development and labor research. Currently, within the corporate setting, there is a notable scarcity of experience when it comes to incorporating AI methodologies into existing processes. This highlights the importance of fostering a seamless fusion of technological innovation and practical workplace application, ensuring that the benefits of AI can be fully realized in an industrial environment.

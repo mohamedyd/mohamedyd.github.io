@@ -4,7 +4,7 @@ title: "ETNS"
 description: Development of interative explainability tool for NLP systems
 img: assets/img/xai.jpg
 importance: 7
-category: Active
+category: Completed
 ---
 
 This project, a key initiative within the [Software Campus](https://softwarecampus.de/) program, receives its funding from the German Federal Ministry of Education and Research (BMBF). It is a collaborative effort that brings together the industry expertise of Software AG with the academic excellence of the Technical University of Munich (TU Munich), aiming to foster innovation and leadership in the field of technology.
