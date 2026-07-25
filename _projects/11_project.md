@@ -2,6 +2,7 @@
 layout: page
 title: Natural AI Code Assistant
 description: An AI-powered assistant that uses LLMs to generate, optimize, and modernize Natural code within the Adabas & Natural ecosystem.
+img: assets/img/natural_ai.svg
 importance: 1
 category: Active
 ---

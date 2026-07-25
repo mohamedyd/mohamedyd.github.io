@@ -2,6 +2,7 @@
 layout: page
 title: CONNX AI
 description: Bringing natural-language, AI-driven access to enterprise and legacy data through CONNX — with security and governance at the core.
+img: assets/img/connx_ai.svg
 importance: 1
 category: Active
 ---

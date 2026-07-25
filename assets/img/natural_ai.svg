@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Natural AI Code Assistant">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2027"/>
+      <stop offset="0.55" stop-color="#134e5e"/>
+      <stop offset="1" stop-color="#1c8a8a"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2">
+    <circle cx="1010" cy="150" r="120"/>
+    <circle cx="1010" cy="150" r="190"/>
+    <circle cx="180" cy="520" r="90"/>
+  </g>
+  <g fill="#ffffff" fill-opacity="0.10">
+    <circle cx="1010" cy="150" r="6"/>
+    <circle cx="880" cy="150" r="6"/>
+    <circle cx="1140" cy="150" r="6"/>
+    <circle cx="1010" cy="20" r="6"/>
+    <circle cx="1010" cy="280" r="6"/>
+  </g>
+  <text x="90" y="300" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="150" font-weight="800" fill="url(#chip)">&lt;/&gt;</text>
+  <text x="90" y="410" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#ffffff">Natural AI</text>
+  <text x="90" y="486" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#ffffff">Code Assistant</text>
+  <text x="92" y="546" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="30" font-weight="500" fill="#a7f3e6" letter-spacing="1">LLMs for the Adabas &amp; Natural ecosystem</text>
+</svg>
