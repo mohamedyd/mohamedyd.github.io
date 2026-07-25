@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Privacy-first generative AI">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#064e3b"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="psh" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#pbg)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="2">
+    <circle cx="300" cy="170" r="150"/>
+    <circle cx="300" cy="170" r="110"/>
+  </g>
+  <path d="M300 70 L378 104 V178 C378 236 344 274 300 292 C256 274 222 236 222 178 V104 Z" fill="url(#psh)"/>
+  <g fill="#064e3b">
+    <rect x="272" y="168" width="56" height="46" rx="8"/>
+    <path d="M282 168 v-14 a18 18 0 0 1 36 0 v14" fill="none" stroke="#064e3b" stroke-width="9"/>
+    <circle cx="300" cy="186" r="8"/>
+    <rect x="296" y="190" width="8" height="16" rx="4"/>
+  </g>
+  <text x="300" y="352" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#ffffff">Privacy-First GenAI</text>
+</svg>
